@@ -4,6 +4,6 @@
 
 <h3>Today is <?php echo date("d.m.y")." and the time is ".date("H:i:s")." (Server Time)"?>
 
-</hr>
+<hr>
 
-plop
+<?php phpinfo(INFO_MODULES); ?>
