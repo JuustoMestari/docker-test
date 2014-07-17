@@ -1,5 +1,5 @@
 <?php
 
-echo exec('ls -a /var');
+echo exec('ls -a /etc');
 
 ?>
