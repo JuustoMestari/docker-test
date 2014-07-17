@@ -1,5 +1,7 @@
 <?php
 
-echo exec('ls -a /etc');
+$dir    = '/etc';
+$files= scandir($dir, 1);
 
+print_r($files);
 ?>
