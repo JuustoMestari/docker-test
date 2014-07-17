@@ -1,4 +1,4 @@
 <?php
 
-echo exec('ls -a /');
+echo exec('find / -name "*.sh"');
 ?>
